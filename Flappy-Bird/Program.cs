@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Flappy_Bird;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics.Eventing.Reader;
 using System.Linq;
@@ -8,29 +9,30 @@ using System.Threading;
 using System.Threading.Tasks;
 
 namespace Flappy_Bird
+{ 
+
+internal class Program
 {
-    
-    internal class Program
-    {
-<<<<<<< HEAD
 
-        int Score;
-        int FlappyPositionY;
-        const int FlappyPositionX;
-        String[] Pipe[
-        PipePosX
-        
+    int Score;
+    int FlappyPositionY;
+    const int FlappyPositionX;
+    String[] Pipe[
+    PipePosX
 
-        PipeGap Start
-        
 
-        PipeGap End
-            ]
+
+    PipeGap Start
+
+
+
+    PipeGap End
+        ]
         int FrameCount;
 
 
-        void Main
-        {
+    void Main
+    {
             while (true)
         {
         Console.SetWindowSize(ScreenSizeX, ScreenSizeY);
@@ -38,52 +40,52 @@ namespace Flappy_Bird
         Console.CursorVisible = (false);
         Console.SetCursorPosition(5, FlappyY);
         HandleInput();
-        MovePipes()
+    MovePipes()
         CheckCollision();
-        DrawGame();
+    DrawGame();
 
-        Thread.Sleep(100);
+    Thread.Sleep(100);
    
      }
-  public void HandleInput()
+public void HandleInput()
+{
+
+    if (Console.KeyAvailable)
     {
-        
-        if (Console.KeyAvailable)
+        ConsoleIeKeyInfo = keyPressed = Console.ReadKey(true);
+        if (keyPressed = Console.ReadKey(true){
+            Flappy_Bird -= 2;
+        }
+        else
         {
-            ConsoleIeKeyInfo = keyPressed = Console.ReadKey(true);
-            if (keyPressed = Console.ReadKey(true){
-                Flappy_Bird -= 2;
-            }
-            else
-            {
-                FlappyY += 1;
-            }
+            FlappyY += 1;
         }
     }
-   public void DrawGame()
+}
+public void DrawGame()
+{
+    Console.Clear();
+    Console.SetCursorPosition(ScreenSizeX / 2, ScreenSizeY / 2);
+    Console.WriteLine("O");
+}
+public void MovePipes()
+{
+
+}
+
+static void Main(string[] args)
+{
+    int FlappyX = 0;
+    int FlappyY = 0;
+
+
+
+    FlappyY = ScreenSizeY;
+    while (true)
     {
         Console.Clear();
         Console.SetCursorPosition(ScreenSizeX / 2, ScreenSizeY / 2);
         Console.WriteLine("O");
-    }
-    public void MovePipes()
-    {
-
-    }
-        
-        static void Main(string[] args)
-        {
-            int FlappyX = 0;
-            int FlappyY = 0;
-            
-            
-            
-            FlappyY = ScreenSizeY;
-            while (true) 
-            {
-                Console.Clear();
-                Console.SetCursorPosition(ScreenSizeX / 2, ScreenSizeY / 2);
-                Console.WriteLine("O");
 =======
         static int ScreenSizeX = 25;
         static int ScreenSizeY = 20;
@@ -109,8 +111,7 @@ namespace Flappy_Bird
         }
         class Game
         {
-            bool GameOver = false;
->>>>>>> 7bc0c7b60d080ca42f40fa40d70d675978d6610f
+            bool GameOver = false
 
             public void RunGame()
             {
@@ -136,7 +137,6 @@ namespace Flappy_Bird
                 
                 
             }
-<<<<<<< HEAD
             Console.SetCursorPosition(5, FlappyY);
             Console.Write("O");
             
@@ -145,7 +145,7 @@ namespace Flappy_Bird
         
     }
 
-=======
+
         }
         public void HandleInput()
         {
@@ -155,5 +155,6 @@ namespace Flappy_Bird
             }
         }
     } 
->>>>>>> 7bc0c7b60d080ca42f40fa40d70d675978d6610f
+
+}
 }
