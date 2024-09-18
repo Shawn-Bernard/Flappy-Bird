@@ -10,17 +10,71 @@ namespace Flappy_Bird
 {
     internal class Program
     {
-        static int ScreenSizeX = 25;
-        static int ScreenSizeY = 20;
+
+        int Score;
+        int FlappyPositionY;
+        const int FlappyPositionX;
+        String[] Pipe[
+        PipePosX
+        
+
+        PipeGap Start
+        
+
+        PipeGap End
+            ]
+        int FrameCount;
+
+
+        void Main
+        {
+            while (true)
+        {
+        Console.SetWindowSize(ScreenSizeX, ScreenSizeY);
+        Console.SetBufferSize(ScreenSizeX, ScreenSizeY);
+        Console.CursorVisible = (false);
+        Console.SetCursorPosition(5, FlappyY);
+        HandleInput();
+        MovePipes()
+        CheckCollision();
+        DrawGame();
+
+        Thread.Sleep(100);
+   
+     }
+  public void HandleInput()
+    {
+        
+        if (Console.KeyAvailable)
+        {
+            ConsoleIeKeyInfo = keyPressed = Console.ReadKey(true);
+            if (keyPressed = Console.ReadKey(true){
+                Flappy_Bird -= 2;
+            }
+            else
+            {
+                FlappyY += 1;
+            }
+        }
+    }
+   public void DrawGame()
+    {
+        Console.Clear();
+        Console.SetCursorPosition(ScreenSizeX / 2, ScreenSizeY / 2);
+        Console.WriteLine("O");
+    }
+    public void MovePipes()
+    {
+
+    }
+        
         static void Main(string[] args)
         {
             int FlappyX = 0;
             int FlappyY = 0;
             
-            Console.SetWindowSize(ScreenSizeX, ScreenSizeY);
-            Console.SetBufferSize(ScreenSizeX, ScreenSizeY);
-            Console.CursorVisible = (false);
-            //Console.WriteLine("Hello World")
+            
+            
             FlappyY = ScreenSizeY;
             while (true) 
             {
@@ -43,8 +97,10 @@ namespace Flappy_Bird
             }
             Console.SetCursorPosition(5, FlappyY);
             Console.Write("O");
-            Thread.Sleep(100);
-
+            
+            
         }
+        
     }
+
 }

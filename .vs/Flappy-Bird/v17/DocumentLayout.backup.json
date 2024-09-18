@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\W0453579\\source\\repos\\Flappy-Bird\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C13A3819-06CC-46A6-A3EA-BBF733134D2E}|Flappy-Bird\\Flappy-Bird.csproj|c:\\users\\w0453579\\source\\repos\\flappy-bird\\flappy-bird\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C13A3819-06CC-46A6-A3EA-BBF733134D2E}|Flappy-Bird\\Flappy-Bird.csproj|solutionrelative:flappy-bird\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\W0453579\\source\\repos\\Flappy-Bird\\Flappy-Bird\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Flappy-Bird\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,7 +24,7 @@
               "RelativeDocumentMoniker": "Flappy-Bird\\Program.cs",
               "ToolTip": "C:\\Users\\W0453579\\source\\repos\\Flappy-Bird\\Flappy-Bird\\Program.cs",
               "RelativeToolTip": "Flappy-Bird\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAADwvy4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-16T11:59:07.741Z",
               "EditorCaption": ""
